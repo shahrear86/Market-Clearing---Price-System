@@ -19,6 +19,7 @@ function GDPP = gdpp(X,Y,P)
 %Y = randn(20,1);
 
 %use the function lag to set the lagged values
+%You can use the function pointdis if you want.
 X1 = lag(X,P);
 Y1 = lag(Y,P);
 [r c]=size(X1);
