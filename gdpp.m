@@ -7,9 +7,12 @@ function GDPP = gdpp(X,Y,P)
 %Applications(ECON-508), M.S.S. examination, University of Chittagong, Bangladesh.
 %***********************************************************  
 %P= lag
-%X= First Sector  (More important to stable the system)
-%Y= Second Sector (Less important to stable the system)
-%Restriction: We have considered that atleast the first value of X is greater than the first value of Y  
+%X= First Sector
+%Y= Second Sector
+%Restriction: We have considered that atleast the first value of X is greater than the first value of Y
+%Logic behind the restriction: Pin down the first value of the two sectors to get the idea :- which one is in a better position now
+%Users can withdraw the restriction if they want.
+
 
 %for example:
 %X = randn(20,1);
